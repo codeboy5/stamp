@@ -1,8 +1,8 @@
 
 
-# STAMP Your Content: Proving Dataset Membership via Watermarked Rephrasings
+# [WIP] STAMP Your Content: Proving Dataset Membership via Watermarked Rephrasings
 
-The repo contains the official code for the paper [STAMP Your Content: Proving Dataset Membership via Watermarked Rephrasings](https://arxiv.org/abs/2504.13416) by Saksham Rastogi, Pratyush Maini, and Danish Pruthi,
+The repo contains the official code for the ICML 25 paper [STAMP Your Content: Proving Dataset Membership via Watermarked Rephrasings](https://arxiv.org/abs/2504.13416) by Saksham Rastogi, Pratyush Maini, and Danish Pruthi.
 
 ### Setup
 
