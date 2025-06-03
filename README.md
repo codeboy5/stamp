@@ -31,6 +31,16 @@ Below are the links to trained models (continual pretraining on contaminated dat
 - [Continual pretraining on corpus of ~2B tokens.](https://huggingface.co/p1xelsr/wtm_gamma0.25_delta1.0_2m)
 - [Continual pretraining on corpus of ~1B tokens.](https://huggingface.co/p1xelsr/wtm_gamma0.25_delta1.0_1m)
 
+### Datasets
+
+- The `benchmarks` folder contains all the test files used to produce the paper's results,
+including both original and rephrased versions for the following four datasets:
+
+  - [ARC-Challenge](https://huggingface.co/datasets/allenai/ai2_arc)
+  - [GSM8K](openai/gsm8k)
+  - [MMLU](cais/mmlu)
+  - [TriviaQA](mandarjoshi/trivia_qa)
+
 ## Acknowledgements
 
 We heavily rely on the following repos in our paper:
