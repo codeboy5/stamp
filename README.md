@@ -1,10 +1,12 @@
-
-
-# [WIP] STAMP Your Content: Proving Dataset Membership via Watermarked Rephrasings
+# STAMP Your Content: Proving Dataset Membership via Watermarked Rephrasings
 
 The repo contains the official code for the ICML 25 paper [STAMP Your Content: Proving Dataset Membership via Watermarked Rephrasings](https://arxiv.org/abs/2504.13416) by Saksham Rastogi, Pratyush Maini, and Danish Pruthi.
 
-### Setup
+## Overview
+
+Given how large parts of publicly available text are crawled to pretrain large language models (LLMs), data creators increasingly worry about the inclusion of their proprietary data for model training without attribution or licensing. Their concerns are also shared by benchmark curators whose test-sets might be compromised. In this paper, we present STAMP, a framework for detecting dataset membership—i.e., determining the inclusion of a dataset in the pretraining corpora of LLMs. Given an original piece of content, our proposal involves first generating multiple rephrases, each embedding a watermark with a unique secret key. One version is to be released publicly, while others are to be kept private. Subsequently, creators can compare model likelihoods between public and private versions using paired statistical tests to prove membership. We show that our framework can successfully detect contamination across four benchmarks which appear only once in the training data and constitute less than 0.001% of the total tokens, outperforming several contamination detection and dataset inference baselines. We verify that STAMP preserves both the semantic meaning and utility of the original data. We apply STAMP to two real-world scenarios to confirm the inclusion of paper abstracts and blog articles in the pretraining corpora.
+
+## Setup
 
 To install the necessary packages, first create a conda environment.
 ```
