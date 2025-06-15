@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 all_data
+litgpt/
+results.ipynb
+pretrain
 
 # C extensions
 *.so

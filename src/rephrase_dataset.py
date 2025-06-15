@@ -66,8 +66,6 @@ def main(args):
         print(f"Writing output to {full_path}")
         f.write("\n".join(results))
 
-
-
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
