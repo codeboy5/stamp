@@ -68,3 +68,7 @@ If you find this repo useful, please consider citing:
       url={https://arxiv.org/abs/2504.13416}, 
 }
 ```
+
+### TODOs 
+
+[ ] Pretrain from scratch the largest model possible (given the compute) with maybe a chinchilla optimal dataset size (contaminated datasets basically).
